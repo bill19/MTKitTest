@@ -9,6 +9,6 @@ s.license      = "MIT"
 s.author             = { "HaoSun" => "sunhao.private@foxmail.com" }
 s.social_media_url   = "http://weibo.com/"
 s.source       = { :git => "https://github.com/bill19/MTKitTest.git", :tag => s.version }
-s.source_files  = "MTKitTest/**/*.{h,m}"
+s.source_files  = "MTKit/**/*.{h,m}"
 s.requires_arc = true
 end
