@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D7C377B1F74BD7500226DB6 /* NSString+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		6D7C377C1F74BD7500226DB6 /* NSString+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 		6DA93E961F74AFE100EB0844 /* MTKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA93EA01F74AFE100EB0844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DA93EA31F74AFE100EB0844 /* MTKitTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MTKitTest.xcdatamodel; sourceTree = "<group>"; };
@@ -151,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				6DA93ED81F74B0C500EB0844 /* MTKitTest.h */,
+				6D7C377B1F74BD7500226DB6 /* NSString+Hash.h */,
+				6D7C377C1F74BD7500226DB6 /* NSString+Hash.m */,
 				6DA93ED91F74B0DE00EB0844 /* NSArray+SafeKit.h */,
 				6DA93EDA1F74B0DE00EB0844 /* NSArray+SafeKit.m */,
 			);

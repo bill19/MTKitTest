@@ -10,6 +10,7 @@
 #define MTKitTest_h
 
 #import "NSArray+SafeKit.h"
+#import "NSString+Hash.h"
 
 
 #endif /* MTKitTest_h */
