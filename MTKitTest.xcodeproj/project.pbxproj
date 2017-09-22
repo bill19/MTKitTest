@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D8552731F74E3DA00A962A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D85526A1F74E3DA00A962A0 /* AppDelegate.m */; };
+		6D8552741F74E3DA00A962A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D85526C1F74E3DA00A962A0 /* ViewController.m */; };
+		6D8552761F74E3DA00A962A0 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8552721F74E3DA00A962A0 /* NSString+Hash.m */; };
 		6DA93EA11F74AFE100EB0844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA93E9F1F74AFE100EB0844 /* Main.storyboard */; };
 		6DA93EA41F74AFE100EB0844 /* MTKitTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DA93EA21F74AFE100EB0844 /* MTKitTest.xcdatamodeld */; };
 		6DA93EA61F74AFE100EB0844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA93EA51F74AFE100EB0844 /* Assets.xcassets */; };
@@ -14,8 +17,6 @@
 		6DA93EAC1F74AFE100EB0844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA93EAB1F74AFE100EB0844 /* main.m */; };
 		6DA93EB61F74AFE100EB0844 /* MTKitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA93EB51F74AFE100EB0844 /* MTKitTestTests.m */; };
 		6DA93EC11F74AFE100EB0844 /* MTKitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA93EC01F74AFE100EB0844 /* MTKitTestUITests.m */; };
-		6DA93ED41F74B02000EB0844 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA93ED01F74B02000EB0844 /* AppDelegate.m */; };
-		6DA93ED51F74B02000EB0844 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA93ED21F74B02000EB0844 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D7C377B1F74BD7500226DB6 /* NSString+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
-		6D7C377C1F74BD7500226DB6 /* NSString+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		6D8552691F74E3DA00A962A0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D85526A1F74E3DA00A962A0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D85526B1F74E3DA00A962A0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D85526C1F74E3DA00A962A0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D85526E1F74E3DA00A962A0 /* MTKitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTKitTest.h; sourceTree = "<group>"; };
+		6D8552711F74E3DA00A962A0 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		6D8552721F74E3DA00A962A0 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 		6DA93E961F74AFE100EB0844 /* MTKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA93EA01F74AFE100EB0844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DA93EA31F74AFE100EB0844 /* MTKitTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MTKitTest.xcdatamodel; sourceTree = "<group>"; };
@@ -51,13 +57,6 @@
 		6DA93EBC1F74AFE100EB0844 /* MTKitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTKitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA93EC01F74AFE100EB0844 /* MTKitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKitTestUITests.m; sourceTree = "<group>"; };
 		6DA93EC21F74AFE100EB0844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DA93ECF1F74B02000EB0844 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6DA93ED01F74B02000EB0844 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6DA93ED11F74B02000EB0844 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6DA93ED21F74B02000EB0844 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6DA93ED81F74B0C500EB0844 /* MTKitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKitTest.h; sourceTree = "<group>"; };
-		6DA93ED91F74B0DE00EB0844 /* NSArray+SafeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeKit.h"; sourceTree = "<group>"; };
-		6DA93EDA1F74B0DE00EB0844 /* NSArray+SafeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +84,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D8552681F74E3DA00A962A0 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				6D8552691F74E3DA00A962A0 /* AppDelegate.h */,
+				6D85526A1F74E3DA00A962A0 /* AppDelegate.m */,
+				6D85526B1F74E3DA00A962A0 /* ViewController.h */,
+				6D85526C1F74E3DA00A962A0 /* ViewController.m */,
+			);
+			path = example;
+			sourceTree = SOURCE_ROOT;
+		};
+		6D85526D1F74E3DA00A962A0 /* MTKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D85526E1F74E3DA00A962A0 /* MTKitTest.h */,
+				6D8552711F74E3DA00A962A0 /* NSString+Hash.h */,
+				6D8552721F74E3DA00A962A0 /* NSString+Hash.m */,
+			);
+			path = MTKit;
+			sourceTree = SOURCE_ROOT;
+		};
 		6DA93E8D1F74AFE100EB0844 = {
 			isa = PBXGroup;
 			children = (
@@ -108,8 +128,8 @@
 		6DA93E981F74AFE100EB0844 /* MTKitTest */ = {
 			isa = PBXGroup;
 			children = (
-				6DA93ECE1F74B02000EB0844 /* example */,
-				6DA93ED31F74B02000EB0844 /* MTKitTest */,
+				6D8552681F74E3DA00A962A0 /* example */,
+				6D85526D1F74E3DA00A962A0 /* MTKit */,
 				6DA93E9F1F74AFE100EB0844 /* Main.storyboard */,
 				6DA93EA51F74AFE100EB0844 /* Assets.xcassets */,
 				6DA93EA71F74AFE100EB0844 /* LaunchScreen.storyboard */,
@@ -136,29 +156,6 @@
 				6DA93EC21F74AFE100EB0844 /* Info.plist */,
 			);
 			path = MTKitTestUITests;
-			sourceTree = "<group>";
-		};
-		6DA93ECE1F74B02000EB0844 /* example */ = {
-			isa = PBXGroup;
-			children = (
-				6DA93ECF1F74B02000EB0844 /* AppDelegate.h */,
-				6DA93ED01F74B02000EB0844 /* AppDelegate.m */,
-				6DA93ED11F74B02000EB0844 /* ViewController.h */,
-				6DA93ED21F74B02000EB0844 /* ViewController.m */,
-			);
-			path = example;
-			sourceTree = "<group>";
-		};
-		6DA93ED31F74B02000EB0844 /* MTKitTest */ = {
-			isa = PBXGroup;
-			children = (
-				6DA93ED81F74B0C500EB0844 /* MTKitTest.h */,
-				6D7C377B1F74BD7500226DB6 /* NSString+Hash.h */,
-				6D7C377C1F74BD7500226DB6 /* NSString+Hash.m */,
-				6DA93ED91F74B0DE00EB0844 /* NSArray+SafeKit.h */,
-				6DA93EDA1F74B0DE00EB0844 /* NSArray+SafeKit.m */,
-			);
-			path = MTKitTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,9 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA93EA41F74AFE100EB0844 /* MTKitTest.xcdatamodeld in Sources */,
+				6D8552761F74E3DA00A962A0 /* NSString+Hash.m in Sources */,
 				6DA93EAC1F74AFE100EB0844 /* main.m in Sources */,
-				6DA93ED51F74B02000EB0844 /* ViewController.m in Sources */,
-				6DA93ED41F74B02000EB0844 /* AppDelegate.m in Sources */,
+				6D8552741F74E3DA00A962A0 /* ViewController.m in Sources */,
+				6D8552731F74E3DA00A962A0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
