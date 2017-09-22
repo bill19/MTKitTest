@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MTKitTest"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "MTKitTest is a easy test."
 
   s.description  = <<-DESC
